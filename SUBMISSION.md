@@ -58,8 +58,21 @@ Local workflow and build evidence:
 
 Pending external screenshots:
 
-- [ ] GitHub Actions failed build run
-- [ ] GitHub Actions successful build run
+- [x] GitHub Actions failed build run
+
+![Failed workflow run list](./screenshots/actions-failed-run.png)
+
+![Failed workflow run detail](./screenshots/actions-failed-detail.png)
+
+![Failed workflow build log](./screenshots/actions-failed-log.png)
+
+- [x] GitHub Actions successful build run
+
+![Successful workflow run list](./screenshots/actions-success-run.png)
+
+![Successful workflow run detail](./screenshots/actions-success-detail.png)
+
+![Successful workflow build log](./screenshots/actions-success-log.png)
 
 ## Part 4: Hosting on Vercel
 
@@ -70,13 +83,29 @@ Recommended Vercel settings:
 - Output Directory: `dist`
 - Install Command: `npm install`
 
+Deployment result:
+
+- Production alias: https://portfolio-ci-cd-pi.vercel.app
+- Deployment URL: https://portfolio-ci-c6tdx270z-kunwarkapil48-3294s-projects.vercel.app
+
 Required screenshots for this part:
 
-- [ ] Vercel import/setup page
-- [ ] Vercel deployment/dashboard page
-- [ ] Domain URL page
-- [ ] Live website home page
+- [x] Vercel import/setup page
+
+![Vercel import setup](./screenshots/vercel-import-setup.png)
+
+- [x] Vercel deployment/dashboard page
+
+![Vercel deployment dashboard](./screenshots/vercel-deployment-dashboard.png)
+
+- [x] Domain URL page
+
+![Vercel domain page](./screenshots/vercel-domain-page.png)
+
+- [x] Live website home page
+
+![Vercel live website](./screenshots/vercel-live-site.png)
 
 ## Notes
 
-This submission file includes every screenshot I could generate locally from this environment. The remaining GitHub Actions and Vercel screenshots depend on getting the project contents onto GitHub and then deploying from that repository.
+This submission file now includes GitHub setup, portfolio, CI failure and success runs, and Vercel hosting evidence with a live production URL.
