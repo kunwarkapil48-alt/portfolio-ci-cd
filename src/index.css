@@ -1,0 +1,75 @@
+:root {
+  --bg: #f5ecdc;
+  --panel: rgba(255, 250, 240, 0.72);
+  --text: #5d4933;
+  --text-h: #23180f;
+  --muted: #896f52;
+  --accent: #c5652f;
+  --border: rgba(114, 84, 43, 0.16);
+  --border-strong: rgba(114, 84, 43, 0.36);
+  --sans: 'Trebuchet MS', 'Gill Sans', sans-serif;
+  --heading: Georgia, 'Times New Roman', serif;
+
+  font: 18px/1.5 var(--sans);
+  color: var(--text);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background:
+    radial-gradient(circle at top, rgba(255, 255, 255, 0.45), transparent 30%),
+    linear-gradient(180deg, #f8f0e1 0%, #f3e6d2 100%);
+}
+
+a {
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+a:hover {
+  opacity: 0.85;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--text-h);
+}
+
+h1 {
+  margin-bottom: 18px;
+  font-family: var(--heading);
+  font-size: clamp(3rem, 6vw, 5rem);
+  line-height: 1.02;
+}
+
+h2 {
+  font-family: var(--heading);
+  font-size: clamp(2rem, 4vw, 2.9rem);
+  line-height: 1.08;
+}
+
+#root {
+  width: min(1160px, 100%);
+  margin: 0 auto;
+}
