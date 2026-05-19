@@ -46,7 +46,7 @@ function App() {
 
         <div className="hero-copy">
           <p className="eyebrow">Week 10 CI/CD Tutorial Project</p>
-          <h1>Frontend portfolio with automated build validation.</h1>
+          <h1>Frontend portfolio with automated build validation.</h1
           <p className="lead">
             This React portfolio demonstrates a simple personal site structure with a
             GitHub Actions workflow that checks every push and a deployment path ready
