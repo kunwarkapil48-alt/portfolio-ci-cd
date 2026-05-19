@@ -12,10 +12,20 @@ cd portfolio-ci-cd
 npm install
 ```
 
-Required screenshots for this part:
+Repository setup proof:
 
-- [ ] GitHub repository created
-- [ ] VS Code terminal showing initial git commands
+![Local git commit](./screenshots/git-commit.png)
+
+![GitHub repository created](./screenshots/github-repo-created.png)
+
+![GitHub repository after push](./screenshots/github-repo-after-push.png)
+
+Current status:
+
+- [x] GitHub repository created in the browser
+- [x] Local git repository initialized and committed
+- [x] Remote URL configured to the GitHub repository
+- [x] CLI push completed to `origin/main`
 
 ## Part 2: Create Portfolio
 
@@ -40,12 +50,16 @@ Expected behavior:
 - On every push to `main`, GitHub Actions installs dependencies and runs `npm run build`.
 - On pull requests to `main`, the same build validation runs.
 
-Required screenshots for this part:
+Local workflow and build evidence:
 
-- [ ] Workflow YAML file open in VS Code
+![Workflow file](./screenshots/ci-workflow-file.png)
+
+![Build log](./screenshots/build-log.png)
+
+Pending external screenshots:
+
 - [ ] GitHub Actions failed build run
 - [ ] GitHub Actions successful build run
-- [ ] Build logs screenshot
 
 ## Part 4: Hosting on Vercel
 
@@ -65,4 +79,4 @@ Required screenshots for this part:
 
 ## Notes
 
-This submission file is prepared and linked to the local screenshots I can generate from this machine. GitHub and Vercel screenshots require access to your GitHub and Vercel accounts.
+This submission file includes every screenshot I could generate locally from this environment. The remaining GitHub Actions and Vercel screenshots depend on getting the project contents onto GitHub and then deploying from that repository.
